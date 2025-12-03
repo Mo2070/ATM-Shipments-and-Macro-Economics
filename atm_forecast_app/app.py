@@ -563,7 +563,6 @@ with c2:
     st.image(
         "Images/OLS.jpg",
         caption="Table 1 – OLS regression summary: ATM shipments vs. macroeconomic indicators",
-        use_container_width=True,
     )
 
 # -----------------------------------------------------------
@@ -679,7 +678,6 @@ with c2:
     st.image(
         "Images/Scatterplot.jpg",
         caption="Figure 1 – Scatterplots with fitted lines: macro indicators vs. ATM shipments",
-        use_container_width=True,
     )
 
 st.markdown(
@@ -761,7 +759,6 @@ st.markdown(
 st.image(
     "Images/Compare Model.jpg",
     caption="Figure 2 – Regional mean % difference between model forecasts and Datos forecasts (2025–2030)",
-    use_container_width=True,
 )
 
 st.markdown(
